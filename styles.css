@@ -1,0 +1,70 @@
+/* add your CSS here */
+
+body {
+    font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 385px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #ffff33;
+}
+
+.card {
+    background: url(pokemon_card_background_min.png);
+    width: 360px;
+    border: 1px solid gray;
+    margin: 10px auto;
+}
+
+.card-header {
+    margin: 0 0 10px 0;
+}
+
+.card-title {
+    font: normal 24px Helvetica, Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.image-wrapper {
+    border: 1px solid gray;
+    background-color: #ffff33;
+    box-shadow: 3px 2px 5px gray;
+}
+
+.card-image {
+    display: block;
+    margin: 5px auto;
+    width: 300px;
+}
+
+.card-content {
+    width: 310px;
+    margin: 0px auto 10px auto;
+}
+
+.card-body {
+    background: url(pokemon_card_body_bg.png);
+    border: 1px solid #ffff33;
+    padding: 0 10px 0 10px;
+}
+
+.interesting-fact {
+    font-style: italic;
+}
+
+.card-body ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.card-body ul li {
+    font-style: italic;
+}
+
+.item-title {
+    font-weight: bold;
+    font-style: normal;
+}
